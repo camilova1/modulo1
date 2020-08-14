@@ -1,0 +1,63 @@
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    display: block;
+}
+h2 {
+    color: red;
+    display: block;  
+}
+.container {
+    display: grid;
+    place-items: center;
+    border: solid 1px red;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    width: 200px;
+}
+.subnav {
+    display: inline-block;
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: cornsilk;
+    width: 100%;
+    z-index: 1;
+  }
+  .subnav-content a {
+    color: black;
+    text-decoration: none;
+  }
+  .subnav-content a:hover {
+    background-color: blue;
+    color: black;
+  }
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+.padreservicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .servicio {
+    width: 450px;
+    margin: 0 10px;
+    border: 1px solid red;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+
+  body {
+    font-family: system-ui, serif;
+  }
+ 
