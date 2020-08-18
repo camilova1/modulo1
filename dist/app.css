@@ -37,7 +37,7 @@ h2 {
 }
 
 .container-bienvenida-gama {
-  background-image: url(/images/nubes-ws.svg?f4e98a03a3ee6f7371e72fd1e5f51b8f);
+  background-image: url(./images/nubes-ws.svg?f4e98a03a3ee6f7371e72fd1e5f51b8f);
 }
 
 .container {
@@ -167,7 +167,7 @@ h2 {
 }
 
 .abuelogradiente {
-  background-image: linear-gradient(180deg, #6f2cbdbd 28%, #23e7a6e6 100%);
+  background-image: linear-gradient(180deg, #6f2cbdbd 28%, #23E7A6 100%);
 }
 
 .pie {

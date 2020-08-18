@@ -1,4 +1,5 @@
 @import "generales";
+@import "variables";
 
 .logo {
     text-align: center;
@@ -14,7 +15,7 @@
   }
   .container-bienvenida {
     padding: 2% 0%;
-    background-image: radial-gradient(at center center, #23E7A6 0%, #6202D2 99%);
+    background-image: radial-gradient(at center center,$turquesa 0%, #6202D2 99%);
   }
   .container-bienvenida-gama {
     background-image: url(../images/nubes-ws.svg);
@@ -24,7 +25,7 @@
     margin: 0 auto;
   }
   .gama {
-    background-image: radial-gradient(at center center, #23E7A6 0%, #6202D2 99%);
+    background-image: radial-gradient(at center center,$turquesa 0%, #6202D2 99%);
   }
   .bienvenida h1 {
     text-align: center;
@@ -125,7 +126,7 @@
     background-image: url(https://websantiago.cl/wp-content/uploads/2020/04/1-ws_resultado.jpg);
   }
   .abuelogradiente {
-    background-image: linear-gradient(180deg, #6f2cbdbd 28%, #23e7a6e6 100%);
+    background-image: linear-gradient(180deg, #6f2cbdbd 28%,$turquesa 100%);
   }
   .pie {
     width: 600px;
