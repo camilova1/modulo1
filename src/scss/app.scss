@@ -1,9 +1,9 @@
 @import "generales";
 @import "variables";
-
-.logo {
-    text-align: center;
-  }
+@import "formulario"
+  .logo {
+      text-align: center;
+    }
   .logo img {
       width: 200px;
     }
@@ -127,28 +127,4 @@
   }
   .abuelogradiente {
     background-image: linear-gradient(180deg, #6f2cbdbd 28%,$turquesa 100%);
-  }
-  .pie {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    vertical-align: baseline;
-    align-content: center;
-    align-items: center;
-    padding: 10% 2% 10% 2%;
-  }
-  
-  .formulario-inicio img {
-    width: 250px;;
-  }
-  .pie h2{
-    color: white;
-    font-weight: 200;
-    font-size: 1.2em;
-  }
-  #formulario-inicio {
-    color:white
-  }
-  #formulario-inicio label {
-   width: 150px;
   }
